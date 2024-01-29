@@ -15,18 +15,17 @@ const Tab2: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
         <IonList>
-        <IonItem>
+          <IonItem>
             <IonCheckbox aria-label="Checkbox Label" />
           </IonItem>
           <IonItem>
             <IonCheckbox aria-label="Checkbox Label" />
           </IonItem>
         </IonList>
-        <IonRouterLink routerLink="/about">Go to About Page</IonRouterLink>
+        <IonRouterLink routerLink="/about">About Page</IonRouterLink>
       </IonContent>
     </IonPage>
   );
 };
 
 export default Tab2;
-
