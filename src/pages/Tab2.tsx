@@ -1,11 +1,18 @@
 // src/pages/CheckboxPage.tsx
 import React from 'react';
-import { IonContent, IonPage, IonList, IonItem, IonLabel, IonCheckbox, IonRouterLink } from '@ionic/react';
+import { IonHeader, IonTitle, IonContent, IonPage, IonList, IonItem, IonLabel, IonCheckbox, IonRouterLink, IonToolbar } from '@ionic/react';
 import CheckboxItem from '../components/CheckboxItem';
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
+      <IonHeader>
+        <IonToolbar>
+          <IonTitle>
+            Calendar Page?
+          </IonTitle>
+        </IonToolbar>
+      </IonHeader>
       <IonContent className="ion-padding">
         <IonList>
         <IonItem>
